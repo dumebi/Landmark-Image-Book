@@ -14,6 +14,11 @@
 		D27FD3891F42796F00550606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3871F42796F00550606 /* LaunchScreen.storyboard */; };
 		D27FD3941F42796F00550606 /* Landmark_Image_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3931F42796F00550606 /* Landmark_Image_BookTests.swift */; };
 		D27FD39F1F42796F00550606 /* Landmark_Image_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD39E1F42796F00550606 /* Landmark_Image_BookUITests.swift */; };
+		D27FD3B01F42F17900550606 /* collesieum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3AC1F42F17900550606 /* collesieum.jpg */; };
+		D27FD3B11F42F17900550606 /* kremlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3AD1F42F17900550606 /* kremlin.jpg */; };
+		D27FD3B21F42F17900550606 /* tajmahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3AE1F42F17900550606 /* tajmahal.jpg */; };
+		D27FD3B31F42F17900550606 /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3AF1F42F17900550606 /* wall.jpg */; };
+		D27FD3B51F430C9B00550606 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3B41F430C9B00550606 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		D27FD39A1F42796F00550606 /* Landmark Image BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Landmark Image BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27FD39E1F42796F00550606 /* Landmark_Image_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark_Image_BookUITests.swift; sourceTree = "<group>"; };
 		D27FD3A01F42796F00550606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27FD3AC1F42F17900550606 /* collesieum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = collesieum.jpg; sourceTree = "<group>"; };
+		D27FD3AD1F42F17900550606 /* kremlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kremlin.jpg; sourceTree = "<group>"; };
+		D27FD3AE1F42F17900550606 /* tajmahal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tajmahal.jpg; sourceTree = "<group>"; };
+		D27FD3AF1F42F17900550606 /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
+		D27FD3B41F430C9B00550606 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 		D27FD37D1F42796F00550606 /* Landmark Image Book */ = {
 			isa = PBXGroup;
 			children = (
+				D27FD3AC1F42F17900550606 /* collesieum.jpg */,
+				D27FD3AD1F42F17900550606 /* kremlin.jpg */,
+				D27FD3AE1F42F17900550606 /* tajmahal.jpg */,
+				D27FD3AF1F42F17900550606 /* wall.jpg */,
 				D27FD37E1F42796F00550606 /* AppDelegate.swift */,
 				D27FD3801F42796F00550606 /* ViewController.swift */,
 				D27FD3821F42796F00550606 /* Main.storyboard */,
+				D27FD3B41F430C9B00550606 /* ImageViewController.swift */,
 				D27FD3851F42796F00550606 /* Assets.xcassets */,
 				D27FD3871F42796F00550606 /* LaunchScreen.storyboard */,
 				D27FD38A1F42796F00550606 /* Info.plist */,
@@ -237,7 +252,11 @@
 			files = (
 				D27FD3891F42796F00550606 /* LaunchScreen.storyboard in Resources */,
 				D27FD3861F42796F00550606 /* Assets.xcassets in Resources */,
+				D27FD3B11F42F17900550606 /* kremlin.jpg in Resources */,
+				D27FD3B21F42F17900550606 /* tajmahal.jpg in Resources */,
 				D27FD3841F42796F00550606 /* Main.storyboard in Resources */,
+				D27FD3B01F42F17900550606 /* collesieum.jpg in Resources */,
+				D27FD3B31F42F17900550606 /* wall.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D27FD3811F42796F00550606 /* ViewController.swift in Sources */,
+				D27FD3B51F430C9B00550606 /* ImageViewController.swift in Sources */,
 				D27FD37F1F42796F00550606 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
